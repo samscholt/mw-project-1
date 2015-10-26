@@ -1,0 +1,109 @@
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background: orange;
+}
+
+.header-title {
+  color: white;
+}
+
+.hide {
+position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hide-text {
+	text-indent: 150%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.header-nav {
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-nav-list {
+  list-style-type: none;
+  text-align: right;
+}
+
+.header-nav-list li {
+  display: inline;
+}
+
+.header-nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  background: orange;
+}
+
+.banner-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.course-goals {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.course-goals-title {
+  color: #777777;
+  font-size: 28pt;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.twitter {
+  width: 20px;
+  height: 20px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/slice.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  display: block;
+  text-indent: 150%;
+  white-space: no-wrap;
+  overflow: hidden;
+}
+
+.facebook {
+  width: 20px;
+  height: 20px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/slice.png');
+  background-repeat: no-repeat;
+  background-position: -35px 0px;
+  display: block;
+  text-indent: 150%;
+  white-space: no-wrap;
+  overflow: hidden;
+}
